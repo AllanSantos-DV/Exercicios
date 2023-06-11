@@ -11,8 +11,8 @@ function calcularValorTotal() {
 
   var valorTotal = (valor1 * quantidade1) + (valor2 * quantidade2) + (valor3 * quantidade3);
 
-  document.getElementById("resultado").innerHTML = "Valor dos(as) "+ nome1 +": R$" + (valor1 * quantidade1).toFixed(2) + "<br>" +
-                                                    "Valor dos(as) "+ nome2 +": R$" + (valor2 * quantidade2).toFixed(2) + "<br>" +
-                                                    "Valor dos(as) "+ nome3 +": R$" + (valor3 * quantidade3).toFixed(2) + "<br>" +
+  document.getElementById("resultado").innerHTML = "Valor do produto 1: ( "+ nome1 +" ) R$" + (valor1 * quantidade1).toFixed(2) + "<br>" +
+                                                    "Valor do produto 2: ( "+ nome2 +" ) R$" + (valor2 * quantidade2).toFixed(2) + "<br>" +
+                                                    "Valor do produto 3: ( "+ nome3 +" ) R$" + (valor3 * quantidade3).toFixed(2) + "<br>" +
                                                     "Valor Total da Venda: R$" + valorTotal.toFixed(2);
 }

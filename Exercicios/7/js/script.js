@@ -4,6 +4,10 @@ function adicionarValor() {
   var valor = parseInt(document.getElementById("valor").value);
   valores.push(valor);
   document.getElementById("valor").value = '';
+
+  mostrarValores();
+  mostrarMaiorValor();
+  mostrarMenorValor();
 }
 
 function mostrarValores() {
@@ -17,13 +21,13 @@ function mostrarValores() {
 function mostrarMaiorValor() {
   if (valores.length > 0) {
     var maiorValor = Math.max(...valores);
-    document.getElementById("resultado").innerHTML = "Maior Valor: " + maiorValor;
+    document.getElementById("maior").innerHTML = "Maior Valor: " + maiorValor;
   }
 }
 
 function mostrarMenorValor() {
   if (valores.length > 0) {
     var menorValor = Math.min(...valores);
-    document.getElementById("resultado").innerHTML = "Menor Valor: " + menorValor;
+    document.getElementById("menor").innerHTML = "Menor Valor: " + menorValor;
   }
 }

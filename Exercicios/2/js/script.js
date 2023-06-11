@@ -11,4 +11,3 @@ function converterTemperatura() {
       document.getElementById("resultado").innerHTML = temperatura + "°F = " + resultado + "°C";
     }
   }
-  

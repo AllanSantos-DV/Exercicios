@@ -5,46 +5,169 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu de Exercícios</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Exercicios</title>
+    <style>
+        .custom-img-size {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
 </head>
 
-<body style="background-color: black; color: white;">
-    <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
-        <h1>Escolha um exercício</h1>
-        <p>Selecione um exercício no menu abaixo:</p>
-        <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" id="exerciciosDropdown"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Exercícios
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="exerciciosDropdown">
-                <li><a class="dropdown-item" href="Exercicios/1/index.html">Exercício 1 <span class="descricao">(Exibir
-                            números
-                            pares)</span></a></li>
-                <li><a class="dropdown-item" href="Exercicios/2/index.html">Exercício 2 <span
-                            class="descricao">(Converter
-                            temperatura)</span></a></li>
-                <li><a class="dropdown-item" href="Exercicios/3/index.html">Exercício 3 <span
-                            class="descricao">(Calcular Total
-                            das vendas)</span></a></li>
-                <li><a class="dropdown-item" href="Exercicios/4/index.html">Exercício 4 <span
-                            class="descricao">(Calcular valor
-                            gasto com Combustivel)</span></a></li>
-                <li><a class="dropdown-item" href="Exercicios/5/index.html">Exercício 5 <span
-                            class="descricao">(Calcular Custo
-                            para assentar piso)</span></a></li>
-                <li><a class="dropdown-item" href="Exercicios/6/index.html">Exercício 6 <span
-                            class="descricao">(Calcular Peso
-                            Ideal)</span></a></li>
-                <li><a class="dropdown-item" href="Exercicios/7/index.html">Exercício 7 <span class="descricao">(Exibir
-                            valores)</span></a></li>
-                <li><a class="dropdown-item" href="Exercicios/jogo da velha/index.html"> Jogo <span class="descricao">(Jogo da velha)</span></a></li>
-            </ul>
+<body class="bg-dark-subtle">
+    <div class="text-center">
+        <h1 class="text-white">Exercicios e jogos</h1>
+        <br>
+    </div>
+    <div class="card-group border-danger">
+        <div class="card bg-transparent text-white text-center">
+
+            <a href="Exercicios/1/index.html?Allan=true">
+                <img src="https://thumbs.dreamstime.com/b/imagem-de-n%C3%BAmeros-pares-com-soldados-brinquedos-ao-fundo-164506138.jpg"
+                    class="card-img-top h-50 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Exercicio 1</h5>
+                    <p class="card-text">Esse programa recebe um valor do usuário, encontra os números pares até esse
+                        valor
+                        e exibe os números pares encontrados e a soma deles em um elemento HTML.</p>
+                    <p class="card-text"><small class="text-danger">Exibir Números Pares</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card bg-transparent text-white text-center">
+
+            <a href="Exercicios/2/index.html?Allan=true">
+                <img src="https://media.gettyimages.com/id/155380380/pt/foto/as-temperaturas.jpg?s=612x612&w=gi&k=20&c=MMKq_ENBDA7_g9HSrhd3vzr5RbH4o5LNLcC4UpZzA64="
+                    class="card-img-top h-50 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Exercicio 2</h5>
+                    <p class="card-text">Esse programa recebe um valor de temperatura e uma opção de conversão do
+                        usuário,
+                        realiza a conversão e exibe o resultado da conversão em um elemento HTML.</p>
+                    <p class="card-text"><small class="text-danger">Converter Temperatura</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card bg-transparent text-white text-center">
+
+            <a href="Exercicios/3/index.html?Allan=true">
+                <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/13742928-eps10-calculadora-eletronica-de-rosa-ou-icone-de-arte-solida-matematica-isolado-no-fundo-branco-simbolos-matematicos-em-um-estilo-moderno-simples-e-moderno-para-o-design-do-seu-site-logotipo-e-aplicativo-movel-vetor.jpg"
+                    class="card-img-top h-50 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Exercicio 3</h5>
+                    <p class="card-text">Esse programa realiza o cálculo do valor total de uma venda com base nos
+                        valores e
+                        quantidades de três produtos diferentes e exibe o valor individual de cada produto, juntamente
+                        com o
+                        valor total da venda, em um elemento HTML.</p>
+                    <p class="card-text"><small class="text-danger">Calcular Valor Total</small></p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="card-group border-danger">
+        <div class="card bg-transparent text-white text-center">
+
+            <a href="Exercicios/4/index.html?Allan=true">
+                <img src="https://www.busvision.com.br/wp-content/uploads/2015/06/Post_Como-economizar-o-consumo-de-combust%C3%ADvel-da-minha-frota.jpg"
+                    class="card-img-top h-50 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Exercicio 4</h5>
+                    <p class="card-text">Esse programa realiza o cálculo do gasto em combustível com base na
+                        quilometragem
+                        percorrida, na autonomia do veículo e no valor do combustível informados pelo usuário. O
+                        resultado é
+                        exibido em um elemento HTML.</p>
+                    <p class="card-text"><small class="text-danger">Calcular Gasto de Combustivel</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card bg-transparent text-white text-center">
+
+            <a href="Exercicios/5/index.html?Allan=true">
+                <img src="https://www.tudoconstrucao.com/wp-content/uploads/2022/03/Tabela-de-prec%CC%A7o-de-assentamento-de-piso-cera%CC%82mico-3.jpg"
+                    class="card-img-top h-50 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Exercicio 5</h5>
+                    <p class="card-text">Esse programa realiza o cálculo do custo para assentar piso com base nas
+                        medidas do
+                        ambiente e no valor do metro quadrado do piso informados pelo usuário. O resultado é exibido em
+                        um
+                        elemento HTML.</p>
+                    <p class="card-text"><small class="text-danger">Calcular Custo do Piso</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card bg-transparent text-white text-center">
+
+            <a href="Exercicios/6/index.html?Allan=true">
+                <img src="https://st.depositphotos.com/1005979/2865/i/600/depositphotos_28656663-stock-photo-goal-word-scale-weight-loss.jpg"
+                    class="card-img-top h-50 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Exercicio 6</h5>
+                    <p class="card-text">Esse programa realiza o cálculo do peso ideal com base na altura e no sexo
+                        informados pelo usuário. O resultado é exibido em um elemento HTML.</p>
+                    <p class="card-text"><small class="text-danger">Calcular Peso Ideal</small></p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="card-group border-danger">
+        <div class="card bg-transparent text-white text-center">
+
+            <a href="Exercicios/7/index.html?Allan=true">
+                <img src="https://cdn.w600.comps.canstockphoto.com.br/matem%C3%A1tico-maior-menor-igual-vetor-cliparte_csp37390553.jpg"
+                    class="card-img-top h-50 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Exercicio 7</h5>
+                    <p class="card-text">Esse programa permitem que o usuário adicione valores a um array, visualize a
+                        lista
+                        de valores adicionados, encontre o maior valor e encontre o menor valor. Os resultados são
+                        exibidos
+                        em elementos HTML específicos.</p>
+                    <p class="card-text"><small class="text-danger">Exibir Valores</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card bg-transparent text-white text-center">
+
+            <a href="Exercicios/jogos/jogo da velha/index.html?Allan=true">
+                <img src="https://static.jogalo.com/i/1337f97.jpg" class="card-img-top h-50 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jogo da velha</h5>
+                    <p class="card-text"> Implementa o jogo da velha em uma página web. Os jogadores alternam entre 'X'
+                        e
+                        'O' clicando nas células do tabuleiro. O programa mantém o controle do placar para os jogadores
+                        'X'
+                        e 'O'. Ele verifica se há um vencedor ou um empate a cada jogada e atualiza o placar de acordo.
+                        O
+                        programa também permite reiniciar o jogo e resetar o placar.</p>
+                    <p class="card-text"><small class="text-danger">Jogo da velha</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card bg-transparent text-white text-center">
+
+            <a href="Exercicios/jogos/snake/index.html?Allan=true">
+                <img src="https://img.ibxk.com.br/2018/08/02/02153935079216.gif" class="card-img-top h-50 img-fluid"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Snake</h5>
+                    <p class="card-text"> Implementa o clássico jogo da cobrinha em uma página web. O jogador controla
+                        uma
+                        cobra que deve comer a comida para aumentar de tamanho e marcar pontos. O jogo possui obstáculos
+                        que
+                        devem ser evitados. O programa mantém o controle do placar, exibe os 10 melhores pontuações e
+                        permite que o jogador insira seu nome para personalização.</p>
+                    <p class="card-text"><small class="text-danger">Jogo da Cobrinha</small></p>
+                </div>
+            </a>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
 </body>
 
 </html>
